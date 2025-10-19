@@ -1,0 +1,69 @@
+/* === General container (applies to all jsPsych content) === */
+.jspsych-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical centering */
+  align-items: center;       /* horizontal centering */
+  min-height: 100vh;         /* full viewport height */
+  text-align: center;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === Global Buttons === */
+.jspsych-content button {
+  margin-top: 30px;       /* consistent spacing above all buttons */
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* === SurveyJS elements (modern theme overrides) === */
+
+/* Center all question text + choices */
+.sd-body,
+.sd-question,
+.sd-question__title,
+.sd-item {
+  text-align: center !important;
+  justify-content: left !important;
+}
+
+/* Make survey question titles bold + spaced */
+.sd-question__title {
+  font-weight: bold !important;
+  margin-bottom: 12px !important;
+}
+
+/* Add more spacing between questions */
+.sd-question {
+  margin-bottom: 28px !important;
+}
+
+/* Remove unwanted separators/lines */
+.sd-separator,
+.sd-row::before,
+.sd-row::after {
+  border: none !important;
+}
+
+/* Style survey navigation buttons (Next / Complete) */
+.sd-navigation input,
+.sd-completedpage input {
+  background-color: #4cafef !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 12px 22px !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  margin: 20px auto !important;
+  display: block !important;
+}
+.sd-navigation input:hover,
+.sd-completedpage input:hover {
+  background-color: #379ad7 !important;
+}
