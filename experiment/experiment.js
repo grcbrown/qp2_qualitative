@@ -62,7 +62,7 @@ const trials = {
 
           <button id="play_button" type="button">Play audio</button>
           <p id="play_notice" style="color:red; font-style:italic; display:none;">
-            Please play the audio at least once to continue.
+            Play the audio at least once to continue.
           </p>
         `;
       },
