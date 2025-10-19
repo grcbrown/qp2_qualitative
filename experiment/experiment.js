@@ -41,6 +41,7 @@ const instructions = {
 
 timeline.push(instructions);
 
+
 //TRIALS
 let trial_array = create_tv_array(trial_objects);
 // TRIALS
@@ -49,24 +50,30 @@ const trials = {
     {
       type: jsPsychSurveyHtmlForm,
 
-      // dynamically insert audio & prompt
       preamble: function() {
         const stim = jsPsych.timelineVariable('stimulus');
         return `
-          <audio id="stimulus_audio" src="${stim}"></audio>
           <p><strong>Please describe the speaker of this sentence using at least five words or phrases.</strong></p>
-          <button id="replay_button" type="button" disabled>🔁 Play again</button>
+
+          <audio id="stimulus_audio">
+            <source src="${stim}" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio><br>
+
+          <button id="play_button" type="button">Play audio</button>
+          <p id="play_notice" style="color:red; font-style:italic; display:none;">
+            Please play the audio at least once to continue.
+          </p>
         `;
       },
 
       html: `
         <textarea name="description" rows="4" cols="60"
-          placeholder="Type your description here..."></textarea>
+          placeholder="Type your description here..." required></textarea>
       `,
 
-      button_label: 'Continue',
+      button_label: "Continue",
 
-      // metadata
       data: {
         id: jsPsych.timelineVariable('data').id,
         stimulus: jsPsych.timelineVariable('stimulus')
@@ -74,42 +81,40 @@ const trials = {
 
       on_load: function() {
         const audio = document.getElementById("stimulus_audio");
-        const replayButton = document.getElementById("replay_button");
+        const playButton = document.getElementById("play_button");
         const continueButton = document.querySelector(".jspsych-btn");
+        const notice = document.getElementById("play_notice");
+
+        let hasPlayed = false;
         let replayCount = 0;
-        let hasPlayedOnce = false;
 
-        if (continueButton) continueButton.disabled = true;
+        // disable continue until first playback
+        continueButton.disabled = true;
+        notice.style.display = "block";
 
-        function playAudio() {
-          if (!audio) return;
+        playButton.addEventListener("click", () => {
+          replayCount++;
           audio.currentTime = 0;
           audio.play();
-          replayButton.disabled = true; // disable during playback
-        }
+        });
 
+        // when first playback ends → enable continue
         audio.addEventListener("ended", () => {
-          replayButton.disabled = false; // allow replay
-          if (!hasPlayedOnce) {
-            hasPlayedOnce = true;
-            if (continueButton) continueButton.disabled = false;
+          if (!hasPlayed) {
+            hasPlayed = true;
+            continueButton.disabled = false;
+            notice.style.display = "none";
           }
         });
 
-        replayButton.addEventListener("click", () => {
-          replayCount++;
-          playAudio();
-        });
-
-        // play automatically once on trial start
-        setTimeout(playAudio, 200);
-
-        // store replay count for on_finish
-        window.currentReplayCount = replayCount;
+        // store replay count so we can add it to trial data later
+        audio.dataset.replayCount = replayCount;
       },
 
       on_finish: function(data) {
-        data.replays = window.currentReplayCount || 0;
+        const audio = document.getElementById("stimulus_audio");
+        const replayCount = audio ? audio.dataset.replayCount || 0 : 0;
+        data.replays = parseInt(replayCount);
         data.description = data.response.description;
         delete data.response;
       }
