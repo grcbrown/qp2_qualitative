@@ -52,6 +52,7 @@ const trials = {
 
       preamble: function() {
         const stim = jsPsych.timelineVariable('stimulus');
+        console.log("Timeline variable (stimulus):", jsPsych.timelineVariable('stimulus'));
         return `
           <p><strong>Please describe the speaker of this sentence using at least five words or phrases.</strong></p>
 
