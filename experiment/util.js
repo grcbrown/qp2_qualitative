@@ -5,6 +5,7 @@ function create_tv_array(json_object) {
         obj.stimulus = json_object[i].stimulus;
         obj.data = {};
         obj.data.id = json_object[i].id;
+        obj.data.stimulus = json_object[i].stimulus;
         tv_array.push(obj)
     }
     return tv_array;

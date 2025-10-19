@@ -43,64 +43,79 @@ timeline.push(instructions);
 
 //TRIALS
 let trial_array = create_tv_array(trial_objects);
+// TRIALS
 const trials = {
   timeline: [
     {
       type: jsPsychSurveyHtmlForm,
+
+      // dynamically insert audio & prompt
       preamble: function() {
         const stim = jsPsych.timelineVariable('stimulus');
         return `
           <audio id="stimulus_audio" src="${stim}"></audio>
           <p><strong>Please describe the speaker of this sentence using at least five words or phrases.</strong></p>
-          <button id="replay_button" type="button"> Replay Audio</button>
+          <button id="replay_button" type="button" disabled>🔁 Play again</button>
         `;
       },
+
       html: `
         <textarea name="description" rows="4" cols="60"
-          placeholder="Type your response here..."></textarea>
+          placeholder="Type your description here..."></textarea>
       `,
+
       button_label: 'Continue',
 
-      // assign metadata for tracking
+      // metadata
       data: {
-        id: jsPsych.timelineVariable('id'),
-        stimulus: jsPsych.timelineVariable('stimulus'),
+        id: jsPsych.timelineVariable('data').id,
+        stimulus: jsPsych.timelineVariable('stimulus')
       },
 
       on_load: function() {
         const audio = document.getElementById("stimulus_audio");
         const replayButton = document.getElementById("replay_button");
+        const continueButton = document.querySelector(".jspsych-btn");
+        let replayCount = 0;
+        let hasPlayedOnce = false;
 
-        // Track replays
-        window.replayCount = 0;
+        if (continueButton) continueButton.disabled = true;
 
-        // play automatically once at trial start
-        if (audio) {
-          setTimeout(() => audio.play(), 200);
+        function playAudio() {
+          if (!audio) return;
+          audio.currentTime = 0;
+          audio.play();
+          replayButton.disabled = true; // disable during playback
         }
 
-        // allow replay
-        if (replayButton && audio) {
-          replayButton.addEventListener("click", () => {
-            audio.currentTime = 0;
-            audio.play();
-            window.replayCount++;
-          });
-        }
+        audio.addEventListener("ended", () => {
+          replayButton.disabled = false; // allow replay
+          if (!hasPlayedOnce) {
+            hasPlayedOnce = true;
+            if (continueButton) continueButton.disabled = false;
+          }
+        });
+
+        replayButton.addEventListener("click", () => {
+          replayCount++;
+          playAudio();
+        });
+
+        // play automatically once on trial start
+        setTimeout(playAudio, 200);
+
+        // store replay count for on_finish
+        window.currentReplayCount = replayCount;
       },
 
       on_finish: function(data) {
-        // Add the replay count and typed response to data
-        data.replays = window.replayCount || 0;
-        data.description = data.response.description; // make it easier to access later
-        delete data.response; // optional cleanup
-
-        console.log(`Trial ${data.id}: ${data.stimulus}`);
-        console.log(`Response: ${data.description}`);
-        console.log(`Replays: ${data.replays}`);
+        data.replays = window.currentReplayCount || 0;
+        data.description = data.response.description;
+        delete data.response;
       }
     }
   ],
+
   timeline_variables: trial_array
 };
 
