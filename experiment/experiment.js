@@ -75,10 +75,10 @@ const trials = {
 
       button_label: "Continue",
 
-      data: {
-        id: jsPsych.timelineVariable('data').id,
+      data: () => ({
+        id: jsPsych.timelineVariable('id'),
         stimulus: jsPsych.timelineVariable('stimulus')
-      },
+      }),
 
       on_load: function() {
         const audio = document.getElementById("stimulus_audio");
