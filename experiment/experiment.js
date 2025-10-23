@@ -50,13 +50,14 @@ const trials = {
     {
       type: jsPsychSurveyHtmlForm,
 
-      preamble: function() {
+      html: () => {
         const stim = jsPsych.timelineVariable('stimulus');
-        console.log("Timeline variable (stimulus):", stim);
+        console.log("Resolved stimulus:", stim);
+
         return `
           <p><strong>Please describe the speaker of this sentence using at least five words or phrases.</strong></p>
 
-          <audio id="stimulus_audio">
+          <audio id="stimulus_audio" preload="auto">
             <source src="${stim}" type="audio/wav">
             Your browser does not support the audio element.
           </audio><br>
@@ -65,13 +66,11 @@ const trials = {
           <p id="play_notice" style="color:red; font-style:italic; display:none;">
             Play the audio at least once to continue.
           </p>
+
+          <textarea name="description" rows="4" cols="60"
+            placeholder="Type your description here..." required></textarea>
         `;
       },
-
-      html: `
-        <textarea name="description" rows="4" cols="60"
-          placeholder="Type your description here..." required></textarea>
-      `,
 
       button_label: "Continue",
 
@@ -89,7 +88,6 @@ const trials = {
         let hasPlayed = false;
         let replayCount = 0;
 
-        // disable continue until first playback
         continueButton.disabled = true;
         notice.style.display = "block";
 
@@ -97,9 +95,9 @@ const trials = {
           replayCount++;
           audio.currentTime = 0;
           audio.play();
+          audio.dataset.replayCount = replayCount;
         });
 
-        // when first playback ends → enable continue
         audio.addEventListener("ended", () => {
           if (!hasPlayed) {
             hasPlayed = true;
@@ -107,9 +105,6 @@ const trials = {
             notice.style.display = "none";
           }
         });
-
-        // store replay count so we can add it to trial data later
-        audio.dataset.replayCount = replayCount;
       },
 
       on_finish: function(data) {
@@ -121,7 +116,6 @@ const trials = {
       }
     }
   ],
-
   timeline_variables: trial_array,
   randomize_order: true
 };
