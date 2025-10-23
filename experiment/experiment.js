@@ -41,7 +41,6 @@ const instructions = {
 
 timeline.push(instructions);
 
-
 //TRIALS
 let trial_array = create_tv_array(trial_objects);
 // TRIALS
