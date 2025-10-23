@@ -41,13 +41,18 @@ const instructions = {
 
 timeline.push(instructions);
 
-//TRIALS
-let trial_array = create_tv_array(trial_objects);
-// TRIALS
+// 1. trial array
+const trial_array = [
+  { stimulus: "audio/573_807_B1.wav", id: "573A" },
+  { stimulus: "audio/573_808_B1.wav", id: "573B" },
+  { stimulus: "audio/573_901_B1.wav", id: "573C" }
+];
+
+// 2. trial definition
 const describe_speaker_trial = {
   type: jsPsychSurveyHtmlForm,
   html: () => {
-    const stim = jsPsych.timelineVariable('stimulus');  // resolved at runtime
+    const stim = jsPsych.timelineVariable('stimulus'); // resolves properly
     console.log("Resolved stimulus:", stim);
 
     return `
@@ -108,15 +113,16 @@ const describe_speaker_trial = {
   }
 };
 
-// Timeline with timeline_variables directly attached
+// 3. Timeline that directly includes the trial and timeline_variables
 const trials_timeline = {
   timeline: [describe_speaker_trial],
   timeline_variables: trial_array,
   randomize_order: true
 };
 
-
+// 4. Push to main timeline
 timeline.push(trials_timeline);
+
 
 //RUN//
 jsPsych.run(timeline);
