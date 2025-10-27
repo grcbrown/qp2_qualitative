@@ -19,24 +19,15 @@ let timeline = []; //Empty timeline
 //timeline.push(irb);
 
 //PRELOAD AUDIO//
-const preload_array = [
-    'audio/573_802_B1.wav', 
-    'audio/573_808_B1.wav',
-    'audio/573_901_B1.wav'
-];  
-
-const preload_trial = {
+var preload_trial = {
     type: jsPsychPreload,
     audio: [
     'audio/573_802_B1.wav', 
     'audio/573_808_B1.wav',
     'audio/573_901_B1.wav'
     ],
-    show_detailed_errors: true
+    auto_preload: true
 };
-
-timeline.unshift(preload_trial);
-
 
 //INSTRUCTIONS
 const instructions = {
@@ -183,6 +174,6 @@ var thanks = {
 }
 
 //RUN//
-jsPsych.run(timeline);
+jsPsych.run([preload_trial, timeline]);
 
 
