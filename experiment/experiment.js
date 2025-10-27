@@ -50,7 +50,7 @@ const irb = {
     margin_vertical: '10px',
 };
 
-//timeline.push(irb);
+timeline.push(irb);
 
 //audio warning
 const audio_warn = {
