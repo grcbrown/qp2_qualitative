@@ -5,6 +5,9 @@
   justify-content: center;   /* vertical centering */
   align-items: center;       /* horizontal centering */
   min-height: 100vh;         /* full viewport height */
+  max-width: 900px;  
+  padding-left: 80px;
+  padding-right: 80px;
   text-align: center;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 18px;
@@ -12,13 +15,32 @@
   line-height: 1.6;
 }
 
-/* === Global Buttons === */
-.jspsych-content button {
-  margin-top: 30px;       /* consistent spacing above all buttons */
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 14px;
+/* === HtmlButtonResponse plugin buttons === */
+.jspsych-btn {
+  background-color: #4cafef;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 22px;
+  margin: 12px auto;
+  font-size: 16px;
   cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.2s, transform 0.1s;
+}
+.jspsych-btn:hover {
+  background-color: #379ad7;
+}
+.jspsych-btn:active {
+  transform: scale(0.97);
+}
+
+.jspsych-html-button-response-stimulus {
+  max-width: 700px;   /* adjust as needed */
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center; /* optional, keeps text centered */
+  line-height: 1.6;   /* improves readability */
 }
 
 /* === SurveyJS elements (modern theme overrides) === */
@@ -28,7 +50,7 @@
 .sd-question,
 .sd-question__title,
 .sd-item {
-  text-align: center !important;
+  text-align: left !important;
   justify-content: left !important;
 }
 
