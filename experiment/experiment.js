@@ -27,7 +27,11 @@ const preload_array = [
 
 const preload_trial = {
     type: jsPsychPreload,
-    audio: preload_array,
+    audio: [
+    'audio/573_802_B1.wav', 
+    'audio/573_808_B1.wav',
+    'audio/573_901_B1.wav'
+    ],
     show_detailed_errors: true
 };
 
