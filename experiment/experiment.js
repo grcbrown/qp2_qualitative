@@ -24,10 +24,77 @@ var preload_trial = {
     audio: [
     'audio/573_807_B1.wav', 
     'audio/573_808_B1.wav',
-    'audio/573_901_B1.wav'
+    'audio/573_901_B1.wav',
+    'audio/gift.wav'
     ],
     auto_preload: true
 };
+
+//audio warning
+const audio_warn = {
+    type: jsPsychHtmlButtonResponse,
+    choices: ['Start'],
+    stimulus: `
+    <div style="font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+`,
+    response_ends_trial: true,
+    trial_duration: 10000
+};
+    
+//push to the timeline
+timeline.push(audio_warn);
+    
+//audio check
+const audio_check = {
+    type: jsPsychAudioButtonResponse,
+    stimulus: 'audio/gift.wav',
+    choices: ['dog', 'friend', 'gift', 'smile', 'blue'],
+    prompt: '<p><br>This is an attention check. <br><br> Click on the word that is being repeated by the speaker.</p>',
+    response_ends_trial: true,
+    trial_duration: 20000,
+    on_finish: function(data) {
+        data.correct = (data.response == 2); // mark correct or incorrect
+    }    
+};
+
+// feedback trial
+const feedback = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: function() {
+    const last_trial_correct = jsPsych.data.get().last(1).values()[0].correct;
+    if (last_trial_correct) {
+      return "<p>Correct! You are ready to begin the study.</p>";
+    } else {
+      return "<p>Incorrect. Please make sure your audio is working and try again.</p>";
+    }
+  },
+  choices: function() {
+    const last_trial_correct = jsPsych.data.get().last(1).values()[0].correct;
+    if (last_trial_correct) {
+      return ['Begin Study'];
+    } else {
+      return ['Try Again'];
+    }
+  }
+};
+
+// loop node: repeats until participant passes
+const audio_check_loop = {
+  timeline: [audio_check, feedback],
+  loop_function: function() {
+    const last_trial_correct = jsPsych.data.get().last(2).values()[0].correct;
+    if (last_trial_correct) {
+      return false; // stop looping when correct
+    } else {
+      return true; // repeat until correct
+    }
+  }
+};
+
+// add to main timeline
+timeline.push(audio_check_loop);
 
 //INSTRUCTIONS
 const instructions = {
@@ -57,7 +124,8 @@ const trials = {
       type: jsPsychSurveyText,
       questions: [
         {
-          prompt: 'Please describe the speaker of this sentence using at least five words or phrases.',
+          prompt: 'List the first 5-10 words that come to mind to describe the speaker of the sentence you just heard.',
+          name: 'Response',
           rows: 5,
           required: true
         }
@@ -70,30 +138,14 @@ const trials = {
 
 timeline.push(trials);
 
-//DATA COLLECTION
-// capture info from Prolific
-var subject_id = jsPsych.data.getURLVariable('PROLIFIC_PID');
-var study_id = jsPsych.data.getURLVariable('STUDY_ID');
-var session_id = jsPsych.data.getURLVariable('SESSION_ID');
-
-jsPsych.data.addProperties({
-  subject_id: subject_id,
-  study_id: study_id,
-  session_id: session_id
-});
-
-const p_id = jsPsych.randomization.randomID(10);
-const filename = `${p_id}.csv`;
-
-const save_data = {
-  type: jsPsychPipe,
-  action: "save",
-  experiment_id: "pDKOe8WY8f6N",
-  filename: filename,
-  data_string: ()=>jsPsych.data.get().csv()
+//SURVEY INSTRUCTIONS
+const transition = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: "<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",
+    choices: ['Continue']
 };
 
-timeline.push(save_data);
+timeline.push(transition);
 
 //SURVEY
 const questionnaire = {
@@ -136,6 +188,25 @@ const questionnaire = {
         title: "What is your race and/or ethnicity?"
       },
       {
+        type: "comment",
+        name: "language",
+        title: "What was the language spoken at home when you were growing up?"
+      },
+      {
+        type: "radiogroup",
+        name: "education",
+        title: 'Highest level of education obtained:',
+        choices: [
+          "Some high school",
+          "Graduated high school",
+          "Some college",
+          "Graduated college",
+          "Hold a higher degree"
+        ],
+        showOtherItem: true,
+        otherText: "Other (describe)"
+      },
+      {
         type: "radiogroup",
         name: "enjoy",
         title: 'Did you enjoy this study?',
@@ -165,13 +236,40 @@ const questionnaire = {
 
 timeline.push(questionnaire);
 
+//DATA COLLECTION
+// capture info from Prolific
+var subject_id = jsPsych.data.getURLVariable('PROLIFIC_PID');
+var study_id = jsPsych.data.getURLVariable('STUDY_ID');
+var session_id = jsPsych.data.getURLVariable('SESSION_ID');
+
+jsPsych.data.addProperties({
+  subject_id: subject_id,
+  study_id: study_id,
+  session_id: session_id
+});
+
+const p_id = jsPsych.randomization.randomID(10);
+const filename = `${p_id}.csv`;
+
+const save_data = {
+  type: jsPsychPipe,
+  action: "save",
+  experiment_id: "pDKOe8WY8f6N",
+  filename: filename,
+  data_string: ()=>jsPsych.data.get().csv()
+};
+
+timeline.push(save_data);
+
 //THANKS//
 var thanks = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `<p>You've finished the study. Thank you for your time!</p>
     <p><a href="https://app.prolific.com/submissions/complete?cc=C1H3NC6F">Click here to return to Prolific and complete the study</a>.</p>`,
   choices: "NO_KEYS"
-}
+};
+
+timeline.push(thanks);
 
 //RUN//
 jsPsych.run([preload_trial, timeline]);
