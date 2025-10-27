@@ -47,7 +47,8 @@ const irb = {
         </div>
     `,
     choices: ['Continue'],
-    margin_vertical: '10px',
+    response_ends_trial: true,
+    margin_vertical: '10px'
 };
 
 timeline.push(irb);
@@ -61,8 +62,7 @@ const audio_warn = {
         <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
     </div>
     `,
-    response_ends_trial: true,
-    trial_duration: 10000
+    response_ends_trial: true
 };
     
 //push to the timeline
