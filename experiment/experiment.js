@@ -26,7 +26,7 @@ var preload_trial = {
     auto_preload: true
 };
 
-//IRB - SKIP FOR PILOT
+//IRB 
 const irb = {
     type: jsPsychHtmlButtonResponse,
     stimulus: `
@@ -60,7 +60,7 @@ const audio_warn = {
     <div style="font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;">
         <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
     </div>
-`,
+    `,
     response_ends_trial: true,
     trial_duration: 10000
 };
