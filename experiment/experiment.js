@@ -22,7 +22,7 @@ let timeline = []; //Empty timeline
 var preload_trial = {
     type: jsPsychPreload,
     audio: [
-    'audio/573_802_B1.wav', 
+    'audio/573_807_B1.wav', 
     'audio/573_808_B1.wav',
     'audio/573_901_B1.wav'
     ],
