@@ -9,26 +9,48 @@ const jsPsych = initJsPsych({
 
 let timeline = []; //Empty timeline
 
-//IRB - SKIP FOR PILOT
-//const irb = {
-    //type: jsPsychHtmlButtonResponse,
-    //stimulus: "ADD IRB TEXT",
-    //choices: ['Continue']
-//};
-
-//timeline.push(irb);
-
 //PRELOAD AUDIO//
 var preload_trial = {
     type: jsPsychPreload,
     audio: [
-    'audio/573_807_B1.wav', 
-    'audio/573_808_B1.wav',
-    'audio/573_901_B1.wav',
+    'audio/330_705_B4.wav',
+    'audio/493_705_B4.wav',
+    'audio/516_705_B4.wav', 
+    'audio/573_705_B4.wav', 
+    'audio/672_705_B4.wav', 
+    'audio/752_705_B4.wav',
+    'audio/799_705_B4.wav', 
+    'audio/955_705_B4.wav',
     'audio/gift.wav'
     ],
     auto_preload: true
 };
+
+//IRB - SKIP FOR PILOT
+const irb = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: `
+        <div style="font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;">
+            <img src="./image/SUSig_2color_Stree_Left.png" alt="Stanford Logo" style="max-width: 500px; margin-bottom: 20px;">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director Grace Brown at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    `,
+    choices: ['Continue'],
+    margin_vertical: '10px',
+};
+
+//timeline.push(irb);
 
 //audio warning
 const audio_warn = {
@@ -99,7 +121,7 @@ timeline.push(audio_check_loop);
 //INSTRUCTIONS
 const instructions = {
     type: jsPsychHtmlButtonResponse,
-    stimulus: "INSTRUCTIONS HERE",
+    stimulus: "<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",
     choices: ['Continue']
 };
 
@@ -124,7 +146,7 @@ const trials = {
       type: jsPsychSurveyText,
       questions: [
         {
-          prompt: 'List the first 5-10 words that come to mind to describe the speaker of the sentence you just heard.',
+          prompt: 'List the first 5-10 words that come to mind to describe the speaker you just heard.',
           name: 'Response',
           rows: 5,
           required: true
@@ -190,7 +212,7 @@ const questionnaire = {
       {
         type: "comment",
         name: "language",
-        title: "What was the language spoken at home when you were growing up?"
+        title: "What language(s) did you speak at home when you were growing up?"
       },
       {
         type: "radiogroup",
