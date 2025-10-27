@@ -1,6 +1,7 @@
 const jsPsych = initJsPsych({
     show_progress_bar: true,
     override_safe_mode: true, // for local testing only
+    max_load_time: 120000, //120 seconds
     on_finish: function() {
         jsPsych.data.displayData('csv');
   }
@@ -19,14 +20,15 @@ let timeline = []; //Empty timeline
 
 //PRELOAD AUDIO//
 const preload_array = [
-    "audio/573_802_B1.wav", 
-    "audio/573_808_B1.wav",
-    "audio/573_901_B1.wav"
+    'audio/573_802_B1.wav', 
+    'audio/573_808_B1.wav',
+    'audio/573_901_B1.wav'
 ];  
 
 const preload_trial = {
     type: jsPsychPreload,
-    audio: preload_array
+    audio: preload_array,
+    show_detailed_errors: true
 };
 
 timeline.unshift(preload_trial);
