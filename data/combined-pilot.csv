@@ -1,0 +1,441 @@
+success,timeout,failed_images,failed_audio,failed_video,trial_type,trial_index,plugin_version,time_elapsed,subject_id,study_id,session_id,rt,stimulus,response,correct,id,source_file
+True,False,[],[],[],preload,0,2.1.0,311,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,,,,,,2cvamfg0kc.csv
+,,,,,html-button-response,1,2.1.0,67020,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,66707.0,"
+        <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+            <img src=""./image/SUSig_2color_Stree_Left.png"" alt=""Stanford Logo"" style=""max-width: 500px; margin-bottom: 20px;"">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director, Grace Brown, at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    ",0,,,2cvamfg0kc.csv
+,,,,,html-button-response,2,2.1.0,102169,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,35147.0,"
+    <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+    ",0,,,2cvamfg0kc.csv
+,,,,,audio-button-response,3,2.1.0,107055,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,4883.0,audio/gift.wav,2,True,,2cvamfg0kc.csv
+,,,,,html-button-response,4,2.1.0,109051,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,1995.0,<p>Correct! You are ready to begin the study.</p>,0,,,2cvamfg0kc.csv
+,,,,,html-button-response,5,2.1.0,177010,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,67957.0,"<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",0,,,2cvamfg0kc.csv
+,,,,,audio-keyboard-response,6,2.1.0,179159,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,,audio/573_705_B4.wav,,,573.0,2cvamfg0kc.csv
+,,,,,survey-text,7,2.1.0,267389,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,88227.0,,"{""Response"":""Tour guide, helpful, leader, expert, knowledgeable""}",,,2cvamfg0kc.csv
+,,,,,audio-keyboard-response,8,2.1.0,270158,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,,audio/752_705_B4.wav,,,752.0,2cvamfg0kc.csv
+,,,,,survey-text,9,2.1.0,302722,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,32563.0,,"{""Response"":""Nice, intelligent, leader, feminine, snow expert""}",,,2cvamfg0kc.csv
+,,,,,audio-keyboard-response,10,2.1.0,305918,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,,audio/330_705_B4.wav,,,330.0,2cvamfg0kc.csv
+,,,,,survey-text,11,2.1.0,344370,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,38451.0,,"{""Response"":""Foreign, deep voice, helpful, nice, tired""}",,,2cvamfg0kc.csv
+,,,,,audio-keyboard-response,12,2.1.0,347145,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,,audio/516_705_B4.wav,,,516.0,2cvamfg0kc.csv
+,,,,,survey-text,13,2.1.0,379268,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,32121.0,,"{""Response"":""Country, warm, hospitality, helpful, kind""}",,,2cvamfg0kc.csv
+,,,,,audio-keyboard-response,14,2.1.0,381591,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,,audio/955_705_B4.wav,,,955.0,2cvamfg0kc.csv
+,,,,,survey-text,15,2.1.0,437197,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,55604.0,,"{""Response"":""Nervous, anxious, tired, high pitched, unsure""}",,,2cvamfg0kc.csv
+,,,,,audio-keyboard-response,16,2.1.0,440077,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,,audio/672_705_B4.wav,,,672.0,2cvamfg0kc.csv
+,,,,,survey-text,17,2.1.0,483633,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,43553.0,,"{""Response"":""Young, informative, nice, helpful, sweet""}",,,2cvamfg0kc.csv
+,,,,,audio-keyboard-response,18,2.1.0,486195,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,,audio/493_705_B4.wav,,,493.0,2cvamfg0kc.csv
+,,,,,survey-text,19,2.1.0,514899,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,28702.0,,"{""Response"":""Middle aged, feminine, helpful, sarcastic, monotone""}",,,2cvamfg0kc.csv
+,,,,,audio-keyboard-response,20,2.1.0,518116,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,,audio/799_705_B4.wav,,,799.0,2cvamfg0kc.csv
+,,,,,survey-text,21,2.1.0,546659,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,28542.0,,"{""Response"":""Elderly, tired, knowledgable, caring, sweet""}",,,2cvamfg0kc.csv
+,,,,,html-button-response,22,2.1.0,561938,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,15278.0,"<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",0,,,2cvamfg0kc.csv
+,,,,,survey,23,3.0.0,768081,6580563ab7a54f1d93ec09f3,68ffea0000c1db3710ce21b4,69000634e7ef9d3f0df5fece,206033.0,,"{""understood"":true,""age"":33,""gender"":""Female"",""ethnicity"":""African American"",""language"":""English"",""education"":""Graduated college"",""enjoy"":""Better than average study"",""payment"":""The payment was fair"",""comments"":""I enjoyed doing this, and I noticed this was a pilot study so I just wanted to say good job and I'd like to participate in another one in the future."",""question1"":null}",,,2cvamfg0kc.csv
+True,False,[],[],[],preload,0,2.1.0,593,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,,,,,,5agx8360pv.csv
+,,,,,html-button-response,1,2.1.0,5102,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,4504.0,"
+        <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+            <img src=""./image/SUSig_2color_Stree_Left.png"" alt=""Stanford Logo"" style=""max-width: 500px; margin-bottom: 20px;"">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director, Grace Brown, at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    ",0,,,5agx8360pv.csv
+,,,,,html-button-response,2,2.1.0,7250,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,2146.0,"
+    <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+    ",0,,,5agx8360pv.csv
+,,,,,audio-button-response,3,2.1.0,10106,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,2621.0,audio/gift.wav,2,True,,5agx8360pv.csv
+,,,,,html-button-response,4,2.1.0,10884,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,776.0,<p>Correct! You are ready to begin the study.</p>,0,,,5agx8360pv.csv
+,,,,,html-button-response,5,2.1.0,47596,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,36710.0,"<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",0,,,5agx8360pv.csv
+,,,,,audio-keyboard-response,6,2.1.0,50374,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,,audio/752_705_B4.wav,,,752.0,5agx8360pv.csv
+,,,,,survey-text,7,2.1.0,72834,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,22448.0,,"{""Response"":""tired, lazy, serious, mundane, emotionless""}",,,5agx8360pv.csv
+,,,,,audio-keyboard-response,8,2.1.0,76034,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,,audio/330_705_B4.wav,,,330.0,5agx8360pv.csv
+,,,,,survey-text,9,2.1.0,121394,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,45356.0,,"{""Response"":""large accent, hard to understand, male voice, emotionless, deep voice""}",,,5agx8360pv.csv
+,,,,,audio-keyboard-response,10,2.1.0,124186,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,,audio/516_705_B4.wav,,,516.0,5agx8360pv.csv
+,,,,,survey-text,11,2.1.0,153419,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,29230.0,,"{""Response"":""southern voice, male voice, adult , no enthusiasm, deep voice""}",,,5agx8360pv.csv
+,,,,,audio-keyboard-response,12,2.1.0,155985,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,,audio/493_705_B4.wav,,,493.0,5agx8360pv.csv
+,,,,,survey-text,13,2.1.0,178305,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,22318.0,,"{""Response"":""easily understandable, lady voice, adult voice, simple, clear, comfortable.""}",,,5agx8360pv.csv
+,,,,,audio-keyboard-response,14,2.1.0,181525,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,,audio/799_705_B4.wav,,,799.0,5agx8360pv.csv
+,,,,,survey-text,15,2.1.0,218274,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,36746.0,,"{""Response"":""female voice, unsure if American or foreign, muffled sound, tired sounding, soft voice.""}",,,5agx8360pv.csv
+,,,,,audio-keyboard-response,16,2.1.0,220429,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,,audio/573_705_B4.wav,,,573.0,5agx8360pv.csv
+,,,,,survey-text,17,2.1.0,248980,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,28549.0,,"{""Response"":""serious, robotic, sounded annoyed, in a rush, impatient.""}",,,5agx8360pv.csv
+,,,,,audio-keyboard-response,18,2.1.0,251859,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,,audio/672_705_B4.wav,,,672.0,5agx8360pv.csv
+,,,,,survey-text,19,2.1.0,305206,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,53345.0,,"{""Response"":""slow speaker, easily understandable, female voice, sounded kind, approachable, easy going""}",,,5agx8360pv.csv
+,,,,,audio-keyboard-response,20,2.1.0,307566,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,,audio/955_705_B4.wav,,,955.0,5agx8360pv.csv
+,,,,,survey-text,21,2.1.0,336442,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,28873.0,,"{""Response"":""sounded tired, rushed, in a hurry, hard to understand, male voice, frustrating""}",,,5agx8360pv.csv
+,,,,,html-button-response,22,2.1.0,339034,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,2590.0,"<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",0,,,5agx8360pv.csv
+,,,,,survey,23,3.0.0,359558,5c7cf8b58ca9000001b52f6e,68ffea0000c1db3710ce21b4,690002e969329f2baa632823,20399.0,,"{""understood"":true,""age"":34,""gender"":""Male"",""ethnicity"":""white"",""language"":""English"",""education"":""Graduated high school"",""enjoy"":""Better than average study"",""payment"":""The payment was fair"",""comments"":""Thanks for inviting me."",""question1"":null}",,,5agx8360pv.csv
+True,False,[],[],[],preload,0,2.1.0,748,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,,,,,,9err2f3vmt.csv
+,,,,,html-button-response,1,2.1.0,21528,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,20779.0,"
+        <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+            <img src=""./image/SUSig_2color_Stree_Left.png"" alt=""Stanford Logo"" style=""max-width: 500px; margin-bottom: 20px;"">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director, Grace Brown, at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    ",0,,,9err2f3vmt.csv
+,,,,,html-button-response,2,2.1.0,24633,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,3104.0,"
+    <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+    ",0,,,9err2f3vmt.csv
+,,,,,audio-button-response,3,2.1.0,26835,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,2120.0,audio/gift.wav,2,True,,9err2f3vmt.csv
+,,,,,html-button-response,4,2.1.0,28250,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,1414.0,<p>Correct! You are ready to begin the study.</p>,0,,,9err2f3vmt.csv
+,,,,,html-button-response,5,2.1.0,63010,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,34758.0,"<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",0,,,9err2f3vmt.csv
+,,,,,audio-keyboard-response,6,2.1.0,65785,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,,audio/752_705_B4.wav,,,752.0,9err2f3vmt.csv
+,,,,,survey-text,7,2.1.0,105073,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,39223.0,,"{""Response"":""calm, mild, cautious, attentive, focused""}",,,9err2f3vmt.csv
+,,,,,audio-keyboard-response,8,2.1.0,108303,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,,audio/799_705_B4.wav,,,799.0,9err2f3vmt.csv
+,,,,,survey-text,9,2.1.0,159526,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,51220.0,,"{""Response"":""wavering, surprised, lively, projecting, matter-of-fact, direct""}",,,9err2f3vmt.csv
+,,,,,audio-keyboard-response,10,2.1.0,162103,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,,audio/493_705_B4.wav,,,493.0,9err2f3vmt.csv
+,,,,,survey-text,11,2.1.0,190648,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,28542.0,,"{""Response"":""monotone, bland, neutral, bored, disinterested, wrote""}",,,9err2f3vmt.csv
+,,,,,audio-keyboard-response,12,2.1.0,193854,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,,audio/330_705_B4.wav,,,330.0,9err2f3vmt.csv
+,,,,,survey-text,13,2.1.0,219102,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,25237.0,,"{""Response"":""sarcastic, slow, methodical, bored, unenthusiastic, standoffish""}",,,9err2f3vmt.csv
+,,,,,audio-keyboard-response,14,2.1.0,221434,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,,audio/955_705_B4.wav,,,955.0,9err2f3vmt.csv
+,,,,,survey-text,15,2.1.0,252720,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,31284.0,,"{""Response"":""whimper, meek, shy, suspicious, uncertain, questioning""}",,,9err2f3vmt.csv
+,,,,,audio-keyboard-response,16,2.1.0,255604,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,,audio/672_705_B4.wav,,,672.0,9err2f3vmt.csv
+,,,,,survey-text,17,2.1.0,313091,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,57481.0,,"{""Response"":""assured, positive, certain, forward, precise, enunciation, understood""}",,,9err2f3vmt.csv
+,,,,,audio-keyboard-response,18,2.1.0,315245,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,,audio/573_705_B4.wav,,,573.0,9err2f3vmt.csv
+,,,,,survey-text,19,2.1.0,353108,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,37859.0,,"{""Response"":""hurried, rushed, immediate, direct, verbose, unintuitive""}",,,9err2f3vmt.csv
+,,,,,audio-keyboard-response,20,2.1.0,355894,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,,audio/516_705_B4.wav,,,516.0,9err2f3vmt.csv
+,,,,,survey-text,21,2.1.0,441492,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,85594.0,,"{""Response"":""warm, comfortable, homey, inviting, understanding, complementary""}",,,9err2f3vmt.csv
+,,,,,html-button-response,22,2.1.0,447430,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,5937.0,"<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",0,,,9err2f3vmt.csv
+,,,,,survey,23,3.0.0,640080,5e29cc3230cf9d03580c34bf,68ffea0000c1db3710ce21b4,6900088d4756a4c8eb3f970d,192581.0,,"{""understood"":true,""age"":35,""gender"":""Male"",""ethnicity"":""white/Caucasian"",""language"":""English"",""education"":""Graduated college"",""enjoy"":""Better than average study"",""payment"":""The payment was fair"",""comments"":""The study was simple, straight forward, and decent interesting. The voices featured were varied and the audio quality was good throughout, with the response segments being comfortably open-ended. "",""question1"":null}",,,9err2f3vmt.csv
+True,False,[],[],[],preload,0,2.1.0,330,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,,,,,,c9oua902mj.csv
+,,,,,html-button-response,1,2.1.0,3209,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,2876.0,"
+        <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+            <img src=""./image/SUSig_2color_Stree_Left.png"" alt=""Stanford Logo"" style=""max-width: 500px; margin-bottom: 20px;"">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director, Grace Brown, at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    ",0,,,c9oua902mj.csv
+,,,,,html-button-response,2,2.1.0,7050,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,3840.0,"
+    <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+    ",0,,,c9oua902mj.csv
+,,,,,audio-button-response,3,2.1.0,11740,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,4141.0,audio/gift.wav,2,True,,c9oua902mj.csv
+,,,,,html-button-response,4,2.1.0,13276,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,1535.0,<p>Correct! You are ready to begin the study.</p>,0,,,c9oua902mj.csv
+,,,,,html-button-response,5,2.1.0,219614,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,206336.0,"<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",0,,,c9oua902mj.csv
+,,,,,audio-keyboard-response,6,2.1.0,223192,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,,audio/493_705_B4.wav,,,493.0,c9oua902mj.csv
+,,,,,survey-text,7,2.1.0,393554,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,170338.0,,"{""Response"":""Midwestern, American, female, relatively masculine, stern""}",,,c9oua902mj.csv
+,,,,,audio-keyboard-response,8,2.1.0,396855,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,,audio/752_705_B4.wav,,,752.0,c9oua902mj.csv
+,,,,,survey-text,9,2.1.0,482452,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,85595.0,,"{""Response"":""Female, American, droll, straight forward, monotone""}",,,c9oua902mj.csv
+,,,,,audio-keyboard-response,10,2.1.0,486690,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,,audio/330_705_B4.wav,,,330.0,c9oua902mj.csv
+,,,,,survey-text,11,2.1.0,553292,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,66601.0,,"{""Response"":""Male, lisp, foreign accent, homosexual, unemotional""}",,,c9oua902mj.csv
+,,,,,audio-keyboard-response,12,2.1.0,556460,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,,audio/573_705_B4.wav,,,573.0,c9oua902mj.csv
+,,,,,survey-text,13,2.1.0,675862,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,119399.0,,"{""Response"":""Androgynous, whiny, annoying, rapid, frustrated""}",,,c9oua902mj.csv
+,,,,,audio-keyboard-response,14,2.1.0,678759,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,,audio/955_705_B4.wav,,,955.0,c9oua902mj.csv
+,,,,,survey-text,15,2.1.0,745352,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,66591.0,,"{""Response"":""Male, overweight, nasally, unclear, overenunciating""}",,,c9oua902mj.csv
+,,,,,audio-keyboard-response,16,2.1.0,749153,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,,audio/516_705_B4.wav,,,516.0,c9oua902mj.csv
+,,,,,survey-text,17,2.1.0,783725,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,34571.0,,"{""Response"":""Male, raspy, American, clear, natural""}",,,c9oua902mj.csv
+,,,,,audio-keyboard-response,18,2.1.0,787103,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,,audio/799_705_B4.wav,,,799.0,c9oua902mj.csv
+,,,,,survey-text,19,2.1.0,858341,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,71236.0,,"{""Response"":""Female, 40's, housewife, smoker, bingo player""}",,,c9oua902mj.csv
+,,,,,audio-keyboard-response,20,2.1.0,861762,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,,audio/672_705_B4.wav,,,672.0,c9oua902mj.csv
+,,,,,survey-text,21,2.1.0,915126,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,53362.0,,"{""Response"":""Female, young, student, American, untrained""}",,,c9oua902mj.csv
+,,,,,html-button-response,22,2.1.0,917387,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,2260.0,"<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",0,,,c9oua902mj.csv
+,,,,,survey,23,3.0.0,973656,6428c3d1aeb8d1cbe7e8cb78,68ffea0000c1db3710ce21b4,69000104c36a88f23f11350f,56184.0,,"{""understood"":true,""age"":54,""gender"":""Male"",""ethnicity"":""White"",""language"":""English"",""education"":""Graduated high school"",""enjoy"":""Better than average study"",""payment"":""The payment was fair"",""question1"":null,""comments"":null}",,,c9oua902mj.csv
+True,False,[],[],[],preload,0,2.1.0,444,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,,,,,,n4vrsdtq38.csv
+,,,,,html-button-response,1,2.1.0,56431,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,55985.0,"
+        <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+            <img src=""./image/SUSig_2color_Stree_Left.png"" alt=""Stanford Logo"" style=""max-width: 500px; margin-bottom: 20px;"">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director, Grace Brown, at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    ",0,,,n4vrsdtq38.csv
+,,,,,html-button-response,2,2.1.0,66327,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,9894.0,"
+    <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+    ",0,,,n4vrsdtq38.csv
+,,,,,audio-button-response,3,2.1.0,72626,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,6261.0,audio/gift.wav,2,True,,n4vrsdtq38.csv
+,,,,,html-button-response,4,2.1.0,74161,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,1534.0,<p>Correct! You are ready to begin the study.</p>,0,,,n4vrsdtq38.csv
+,,,,,html-button-response,5,2.1.0,98662,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,24499.0,"<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",0,,,n4vrsdtq38.csv
+,,,,,audio-keyboard-response,6,2.1.0,101884,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,,audio/799_705_B4.wav,,,799.0,n4vrsdtq38.csv
+,,,,,survey-text,7,2.1.0,123718,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,21827.0,,"{""Response"":""She sounds tired and kind of bored. ""}",,,n4vrsdtq38.csv
+,,,,,audio-keyboard-response,8,2.1.0,125863,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,,audio/573_705_B4.wav,,,573.0,n4vrsdtq38.csv
+,,,,,survey-text,9,2.1.0,145839,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,19974.0,,"{""Response"":""A little bit intense and focused.""}",,,n4vrsdtq38.csv
+,,,,,audio-keyboard-response,10,2.1.0,148613,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,,audio/516_705_B4.wav,,,516.0,n4vrsdtq38.csv
+,,,,,survey-text,11,2.1.0,181018,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,32404.0,,"{""Response"":""diligent and focused on perfect enunciation. ""}",,,n4vrsdtq38.csv
+,,,,,audio-keyboard-response,12,2.1.0,184209,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,,audio/330_705_B4.wav,,,330.0,n4vrsdtq38.csv
+,,,,,survey-text,13,2.1.0,212812,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,28600.0,,"{""Response"":""Slow and drawn out and also disinterested. ""}",,,n4vrsdtq38.csv
+,,,,,audio-keyboard-response,14,2.1.0,215378,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,,audio/493_705_B4.wav,,,493.0,n4vrsdtq38.csv
+,,,,,survey-text,15,2.1.0,256709,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,41329.0,,"{""Response"":""perfunctory and lackadaisical. Just trying to get the job done. ""}",,,n4vrsdtq38.csv
+,,,,,audio-keyboard-response,16,2.1.0,259494,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,,audio/752_705_B4.wav,,,752.0,n4vrsdtq38.csv
+,,,,,survey-text,17,2.1.0,296298,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,36801.0,,"{""Response"":""unsure and slightly confused. Reading the words for the first time. ""}",,,n4vrsdtq38.csv
+,,,,,audio-keyboard-response,18,2.1.0,299190,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,,audio/672_705_B4.wav,,,672.0,n4vrsdtq38.csv
+,,,,,survey-text,19,2.1.0,337931,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,38737.0,,"{""Response"":""interested and intent, professional and prepared. ""}",,,n4vrsdtq38.csv
+,,,,,audio-keyboard-response,20,2.1.0,340273,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,,audio/955_705_B4.wav,,,955.0,n4vrsdtq38.csv
+,,,,,survey-text,21,2.1.0,374053,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,33777.0,,"{""Response"":""scared, afraid, hesitant, paying attention elsewhere. ""}",,,n4vrsdtq38.csv
+,,,,,html-button-response,22,2.1.0,380544,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,6489.0,"<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",0,,,n4vrsdtq38.csv
+,,,,,survey,23,3.0.0,413684,6753b6b7014705911770ecd0,68ffea0000c1db3710ce21b4,6900088a5a882c801cdee1e5,33074.0,,"{""understood"":true,""age"":36,""gender"":""Male"",""ethnicity"":""White"",""language"":""English"",""education"":""Graduated high school"",""enjoy"":""Better than average study"",""payment"":""The payment was fair"",""comments"":""no"",""question1"":null}",,,n4vrsdtq38.csv
+True,False,[],[],[],preload,0,2.1.0,3934,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,,,,,,nqxoy2hh57.csv
+,,,,,html-button-response,1,2.1.0,8288,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,4350.0,"
+        <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+            <img src=""./image/SUSig_2color_Stree_Left.png"" alt=""Stanford Logo"" style=""max-width: 500px; margin-bottom: 20px;"">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director, Grace Brown, at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    ",0,,,nqxoy2hh57.csv
+,,,,,html-button-response,2,2.1.0,16363,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,8072.0,"
+    <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+    ",0,,,nqxoy2hh57.csv
+,,,,,audio-button-response,3,2.1.0,19531,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,3112.0,audio/gift.wav,2,True,,nqxoy2hh57.csv
+,,,,,html-button-response,4,2.1.0,21680,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,2146.0,<p>Correct! You are ready to begin the study.</p>,0,,,nqxoy2hh57.csv
+,,,,,html-button-response,5,2.1.0,35552,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,13869.0,"<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",0,,,nqxoy2hh57.csv
+,,,,,audio-keyboard-response,6,2.1.0,38333,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,,audio/516_705_B4.wav,,,516.0,nqxoy2hh57.csv
+,,,,,survey-text,7,2.1.0,61680,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,23328.0,,"{""Response"":""snow was found on empty road""}",,,nqxoy2hh57.csv
+,,,,,audio-keyboard-response,8,2.1.0,64561,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,,audio/672_705_B4.wav,,,672.0,nqxoy2hh57.csv
+,,,,,survey-text,9,2.1.0,91118,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,26554.0,,"{""Response"":""snow are found on empty road\n""}",,,nqxoy2hh57.csv
+,,,,,audio-keyboard-response,10,2.1.0,93880,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,,audio/752_705_B4.wav,,,752.0,nqxoy2hh57.csv
+,,,,,survey-text,11,2.1.0,120542,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,26659.0,,"{""Response"":""snow marfold hand on empty road""}",,,nqxoy2hh57.csv
+,,,,,audio-keyboard-response,12,2.1.0,123742,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,,audio/330_705_B4.wav,,,330.0,nqxoy2hh57.csv
+,,,,,survey-text,13,2.1.0,148098,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,24350.0,,"{""Response"":""snow marfold sound on empty road""}",,,nqxoy2hh57.csv
+,,,,,audio-keyboard-response,14,2.1.0,150431,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,,audio/955_705_B4.wav,,,955.0,nqxoy2hh57.csv
+,,,,,survey-text,15,2.1.0,183638,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,33204.0,,"{""Response"":""snow are found sound on an empty road\n""}",,,nqxoy2hh57.csv
+,,,,,audio-keyboard-response,16,2.1.0,185779,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,,audio/573_705_B4.wav,,,573.0,nqxoy2hh57.csv
+,,,,,survey-text,17,2.1.0,210027,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,24246.0,,"{""Response"":""snow merfold more sound on empty road""}",,,nqxoy2hh57.csv
+,,,,,audio-keyboard-response,18,2.1.0,212598,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,,audio/493_705_B4.wav,,,493.0,nqxoy2hh57.csv
+,,,,,survey-text,19,2.1.0,235936,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,23336.0,,"{""Response"":""snow more sound on empty road""}",,,nqxoy2hh57.csv
+,,,,,audio-keyboard-response,20,2.1.0,239160,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,,audio/799_705_B4.wav,,,799.0,nqxoy2hh57.csv
+,,,,,survey-text,21,2.1.0,260382,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,21216.0,,"{""Response"":""snow merfold o sound on empty road""}",,,nqxoy2hh57.csv
+,,,,,html-button-response,22,2.1.0,271379,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,10994.0,"<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",0,,,nqxoy2hh57.csv
+,,,,,survey,23,3.0.0,338275,67d21364aa4dc87ecd8f3f1b,68ffea0000c1db3710ce21b4,6900026c91c9e8015771836c,66595.0,,"{""understood"":true,""age"":30,""gender"":""Male"",""ethnicity"":""black/African American"",""language"":""English"",""education"":""Some college"",""enjoy"":""Better than average study"",""payment"":""The payment was fair"",""question1"":null,""comments"":null}",,,nqxoy2hh57.csv
+True,False,[],[],[],preload,0,2.1.0,266,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,,,,,,or05xvgm6q.csv
+,,,,,html-button-response,1,2.1.0,6941,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,6673.0,"
+        <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+            <img src=""./image/SUSig_2color_Stree_Left.png"" alt=""Stanford Logo"" style=""max-width: 500px; margin-bottom: 20px;"">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director, Grace Brown, at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    ",0,,,or05xvgm6q.csv
+,,,,,html-button-response,2,2.1.0,11015,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,4073.0,"
+    <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+    ",0,,,or05xvgm6q.csv
+,,,,,audio-button-response,3,2.1.0,13109,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,2021.0,audio/gift.wav,2,True,,or05xvgm6q.csv
+,,,,,html-button-response,4,2.1.0,13823,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,712.0,<p>Correct! You are ready to begin the study.</p>,0,,,or05xvgm6q.csv
+,,,,,html-button-response,5,2.1.0,31761,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,17937.0,"<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",0,,,or05xvgm6q.csv
+,,,,,audio-keyboard-response,6,2.1.0,34324,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,,audio/493_705_B4.wav,,,493.0,or05xvgm6q.csv
+,,,,,survey-text,7,2.1.0,51076,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,16732.0,,"{""Response"":""25 year old woman, narrating winter storm\n""}",,,or05xvgm6q.csv
+,,,,,audio-keyboard-response,8,2.1.0,54294,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,,audio/799_705_B4.wav,,,799.0,or05xvgm6q.csv
+,,,,,survey-text,9,2.1.0,64867,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,10570.0,,"{""Response"":""older, 65 year old woman rough voice\n""}",,,or05xvgm6q.csv
+,,,,,audio-keyboard-response,10,2.1.0,67194,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,,audio/955_705_B4.wav,,,955.0,or05xvgm6q.csv
+,,,,,survey-text,11,2.1.0,84987,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,17790.0,,"{""Response"":""mumbling scuffled speech, man, weak""}",,,or05xvgm6q.csv
+,,,,,audio-keyboard-response,12,2.1.0,87864,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,,audio/672_705_B4.wav,,,672.0,or05xvgm6q.csv
+,,,,,survey-text,13,2.1.0,97561,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,9692.0,,"{""Response"":""Younger woman, clear narration, easy to hear""}",,,or05xvgm6q.csv
+,,,,,audio-keyboard-response,14,2.1.0,100333,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,,audio/516_705_B4.wav,,,516.0,or05xvgm6q.csv
+,,,,,survey-text,15,2.1.0,111310,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,10972.0,,"{""Response"":""Southern leaning accent man, clear speech""}",,,or05xvgm6q.csv
+,,,,,audio-keyboard-response,16,2.1.0,114504,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,,audio/330_705_B4.wav,,,330.0,or05xvgm6q.csv
+,,,,,survey-text,17,2.1.0,135618,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,21110.0,,"{""Response"":""European accent speaker, male, late 20s ""}",,,or05xvgm6q.csv
+,,,,,audio-keyboard-response,18,2.1.0,137764,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,,audio/573_705_B4.wav,,,573.0,or05xvgm6q.csv
+,,,,,survey-text,19,2.1.0,150365,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,12596.0,,"{""Response"":""just speech, didn't really register anything""}",,,or05xvgm6q.csv
+,,,,,audio-keyboard-response,20,2.1.0,153134,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,,audio/752_705_B4.wav,,,752.0,or05xvgm6q.csv
+,,,,,survey-text,21,2.1.0,164093,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,10954.0,,"{""Response"":""older mother, rough speech but clear""}",,,or05xvgm6q.csv
+,,,,,html-button-response,22,2.1.0,166059,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,1965.0,"<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",0,,,or05xvgm6q.csv
+,,,,,survey,23,3.0.0,181130,633628106c44d5d8d54813f5,68ffea0000c1db3710ce21b4,68ffff5926ed062b18d68c27,15007.0,,"{""understood"":true,""age"":27,""gender"":""Male"",""ethnicity"":""white black"",""language"":""english, some spanish"",""education"":""Graduated college"",""enjoy"":""Better than average study"",""payment"":""The payment was fair"",""question1"":null,""comments"":null}",,,or05xvgm6q.csv
+True,False,[],[],[],preload,0,2.1.0,777,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,,,,,,r7moecm6nc.csv
+,,,,,html-button-response,1,2.1.0,32911,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,32134.0,"
+        <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+            <img src=""./image/SUSig_2color_Stree_Left.png"" alt=""Stanford Logo"" style=""max-width: 500px; margin-bottom: 20px;"">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director, Grace Brown, at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    ",0,,,r7moecm6nc.csv
+,,,,,html-button-response,2,2.1.0,48931,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,16018.0,"
+    <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+    ",0,,,r7moecm6nc.csv
+,,,,,audio-button-response,3,2.1.0,51208,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,2200.0,audio/gift.wav,2,True,,r7moecm6nc.csv
+,,,,,html-button-response,4,2.1.0,53236,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,2027.0,<p>Correct! You are ready to begin the study.</p>,0,,,r7moecm6nc.csv
+,,,,,html-button-response,5,2.1.0,69023,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,15786.0,"<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",0,,,r7moecm6nc.csv
+,,,,,audio-keyboard-response,6,2.1.0,72248,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,,audio/799_705_B4.wav,,,799.0,r7moecm6nc.csv
+,,,,,survey-text,7,2.1.0,140874,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,68605.0,,"{""Response"":""feminine, lisp, rough, somewhat deep in terms of feminine voices, muffled""}",,,r7moecm6nc.csv
+,,,,,audio-keyboard-response,8,2.1.0,143648,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,,audio/752_705_B4.wav,,,752.0,r7moecm6nc.csv
+,,,,,survey-text,9,2.1.0,165051,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,21398.0,,"{""Response"":""very deep voiced, feminine, mature, experienced, wise""}",,,r7moecm6nc.csv
+,,,,,audio-keyboard-response,10,2.1.0,168258,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,,audio/330_705_B4.wav,,,330.0,r7moecm6nc.csv
+,,,,,survey-text,11,2.1.0,234907,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,66646.0,,"{""Response"":""masculine, unidentified accent, moderately in between deep and high pitched, a younger adult""}",,,r7moecm6nc.csv
+,,,,,audio-keyboard-response,12,2.1.0,237068,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,,audio/573_705_B4.wav,,,573.0,r7moecm6nc.csv
+,,,,,survey-text,13,2.1.0,275670,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,38595.0,,"{""Response"":""feminine, deep voice, blunt, straightforward, abrupt""}",,,r7moecm6nc.csv
+,,,,,audio-keyboard-response,14,2.1.0,278248,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,,audio/493_705_B4.wav,,,493.0,r7moecm6nc.csv
+,,,,,survey-text,15,2.1.0,321910,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,43655.0,,"{""Response"":""Feminine, young adult age, voice is not too deep but not too high, plainspoken""}",,,r7moecm6nc.csv
+,,,,,audio-keyboard-response,16,2.1.0,324248,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,,audio/955_705_B4.wav,,,955.0,r7moecm6nc.csv
+,,,,,survey-text,17,2.1.0,348328,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,24076.0,,"{""Response"":""masculine, muffled, anxious, worried, timid, decently high pitched voice""}",,,r7moecm6nc.csv
+,,,,,audio-keyboard-response,18,2.1.0,351118,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,,audio/516_705_B4.wav,,,516.0,r7moecm6nc.csv
+,,,,,survey-text,19,2.1.0,390202,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,39080.0,,"{""Response"":""Deep voice, masculine, gruff, accent is somewhat present, curt""}",,,r7moecm6nc.csv
+,,,,,audio-keyboard-response,20,2.1.0,393088,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,,audio/672_705_B4.wav,,,672.0,r7moecm6nc.csv
+,,,,,survey-text,21,2.1.0,460637,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,67544.0,,"{""Response"":""Has a softer voice, feminine, a bit higher pitched, feathery""}",,,r7moecm6nc.csv
+,,,,,html-button-response,22,2.1.0,464853,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,4214.0,"<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",0,,,r7moecm6nc.csv
+,,,,,survey,23,3.0.0,746677,6681cd8b12dcb4b45a155c03,68ffea0000c1db3710ce21b4,690000b0163155d912b74a45,281781.0,,"{""understood"":true,""age"":22,""gender"":""Non-binary"",""ethnicity"":""White"",""language"":""English"",""education"":""Some college"",""enjoy"":""Better than average study"",""payment"":""The payment was fair"",""comments"":""Thanks for the study, it was interesting and unique :)"",""question1"":null}",,,r7moecm6nc.csv
+True,False,[],[],[],preload,0,2.1.0,550,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,,,,,,stujr653hr.csv
+,,,,,html-button-response,1,2.1.0,30770,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,30216.0,"
+        <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+            <img src=""./image/SUSig_2color_Stree_Left.png"" alt=""Stanford Logo"" style=""max-width: 500px; margin-bottom: 20px;"">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director, Grace Brown, at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    ",0,,,stujr653hr.csv
+,,,,,html-button-response,2,2.1.0,40416,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,9641.0,"
+    <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+    ",0,,,stujr653hr.csv
+,,,,,audio-button-response,3,2.1.0,45268,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,4171.0,audio/gift.wav,2,True,,stujr653hr.csv
+,,,,,html-button-response,4,2.1.0,47077,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,1807.0,<p>Correct! You are ready to begin the study.</p>,0,,,stujr653hr.csv
+,,,,,html-button-response,5,2.1.0,98737,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,51657.0,"<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",0,,,stujr653hr.csv
+,,,,,audio-keyboard-response,6,2.1.0,102262,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,,audio/672_705_B4.wav,,,672.0,stujr653hr.csv
+,,,,,survey-text,7,2.1.0,171453,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,69170.0,,"{""Response"":""school teacher, kind, gentle, lady, polite""}",,,stujr653hr.csv
+,,,,,audio-keyboard-response,8,2.1.0,174288,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,,audio/516_705_B4.wav,,,516.0,stujr653hr.csv
+,,,,,survey-text,9,2.1.0,235071,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,60776.0,,"{""Response"":""Radio, tv, news, gruff, man,""}",,,stujr653hr.csv
+,,,,,audio-keyboard-response,10,2.1.0,238281,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,,audio/493_705_B4.wav,,,493.0,stujr653hr.csv
+,,,,,survey-text,11,2.1.0,312470,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,74184.0,,"{""Response"":""Lady, bored, distracted, tired, ready to go home""}",,,stujr653hr.csv
+,,,,,audio-keyboard-response,12,2.1.0,314851,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,,audio/955_705_B4.wav,,,955.0,stujr653hr.csv
+,,,,,survey-text,13,2.1.0,390222,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,75365.0,,"{""Response"":""Man, DVD, late, story, bored""}",,,stujr653hr.csv
+,,,,,audio-keyboard-response,14,2.1.0,393502,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,,audio/330_705_B4.wav,,,330.0,stujr653hr.csv
+,,,,,survey-text,15,2.1.0,429162,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,35656.0,,"{""Response"":""Man, foreign, learning English, dedicated, proud""}",,,stujr653hr.csv
+,,,,,audio-keyboard-response,16,2.1.0,432465,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,,audio/799_705_B4.wav,,,799.0,stujr653hr.csv
+,,,,,survey-text,17,2.1.0,466242,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,33772.0,,"{""Response"":""Accent, lady, mother, child, book""}",,,stujr653hr.csv
+,,,,,audio-keyboard-response,18,2.1.0,469026,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,,audio/752_705_B4.wav,,,752.0,stujr653hr.csv
+,,,,,survey-text,19,2.1.0,532018,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,62989.0,,"{""Response"":""Tired, quick, cell phone, conversation, story""}",,,stujr653hr.csv
+,,,,,audio-keyboard-response,20,2.1.0,534214,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,,audio/573_705_B4.wav,,,573.0,stujr653hr.csv
+,,,,,survey-text,21,2.1.0,602157,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,67938.0,,"{""Response"":""Lady, coffee shop, conversation, relaxed, witness""}",,,stujr653hr.csv
+,,,,,html-button-response,22,2.1.0,611022,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,8863.0,"<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",0,,,stujr653hr.csv
+,,,,,survey,23,3.0.0,691802,673feeafa80a279f5cc63e33,68ffea0000c1db3710ce21b4,690005af8b21c3dce5ecb9f2,80534.0,,"{""understood"":true,""age"":62,""gender"":""Female"",""ethnicity"":""American"",""language"":""English"",""education"":""Graduated high school"",""enjoy"":""Better than average study"",""payment"":""The payment was fair"",""comments"":""none"",""question1"":null}",,,stujr653hr.csv
+True,False,[],[],[],preload,0,2.1.0,212,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,,,,,,yzde7ho4bc.csv
+,,,,,html-button-response,1,2.1.0,8858,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,8643.0,"
+        <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+            <img src=""./image/SUSig_2color_Stree_Left.png"" alt=""Stanford Logo"" style=""max-width: 500px; margin-bottom: 20px;"">
+            <h3>DESCRIPTION</h3>
+            <p>You are invited to participate in a research study. Its general purpose is to understand how people perceive spoken language. We are interested in how people make use of varying properties of language to infer social information about a speaker. In this study, you will hear spoken sentences, and you will be asked to describe the speaker of each sentence in your own words. Following this, you will be asked to complete an optional demographic survey. Participation in this research is voluntary, and you are free to withdraw your consent at any time.</p>
+            <h3>TIME INVOLVEMENT</h3> 
+            <p>Your participation will take approximately 10 to 15 minutes.</p>
+            <h3>PAYMENT</h3> 
+            <p>You will be paid at the posted rate.</p>
+            <h3>PRIVACY AND CONFIDENTIALITY</h3> 
+            <p>The risks associated with this study are minimal. This judgment is based on a large body of experience with the same or similar procedures with people of similar ages, sex, origins, etc. Study data will be stored securely, in compliance with Stanford University standards, minimizing the risk of confidentiality breach. Your individual privacy will be maintained during the research and in all published and written data resulting from the study.</p>
+            <h3>CONTACT INFORMATION</h3>
+            <p>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director, Grace Brown, at (616) 498-8188. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650) 723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.</p> 
+            <h3>WAIVER OF DOCUMENTATION</h3>
+            <p>If you agree to participate in this research, please click the 'Continue' button.</p>
+        </div>
+    ",0,,,yzde7ho4bc.csv
+,,,,,html-button-response,2,2.1.0,12685,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,3825.0,"
+    <div style=""font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;"">
+        <p>This study requires you to listen to audio clips. To ensure you can adequately hear the audio presented in this study, the next page will have an audio attention check. Please wear headphones, and be prepared to adjust the volume on your device if necessary.<br><br>When you are ready to begin the audio attention check, click 'Start'.</p>
+    </div>
+    ",0,,,yzde7ho4bc.csv
+,,,,,audio-button-response,3,2.1.0,16608,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,3731.0,audio/gift.wav,2,True,,yzde7ho4bc.csv
+,,,,,html-button-response,4,2.1.0,17865,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,1255.0,<p>Correct! You are ready to begin the study.</p>,0,,,yzde7ho4bc.csv
+,,,,,html-button-response,5,2.1.0,115901,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,98033.0,"<p>In this study, you are going to hear multiple people produce the same sentence. In a given trial, you will hear a speaker, and on a separate page, you will be prompted to provide a short description of that speaker in an empty textbox. You do not have to provide your response in complete sentences. You may list words or phrases, separated by commas, if you prefer to do so. You may take as long as you need to respond, but you will only be able to listen to each person once. After you provide a description of the speaker, you may click ‘Continue’ to advance to the next trial. You will not be able to return a trial after completing it.<br><br>If you understand the instructions and are ready to hear the first speaker, click ‘Continue’.</p>",0,,,yzde7ho4bc.csv
+,,,,,audio-keyboard-response,6,2.1.0,118769,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,,audio/516_705_B4.wav,,,516.0,yzde7ho4bc.csv
+,,,,,survey-text,7,2.1.0,149026,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,30251.0,,"{""Response"":""younger adult. college student. high social status""}",,,yzde7ho4bc.csv
+,,,,,audio-keyboard-response,8,2.1.0,151910,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,,audio/672_705_B4.wav,,,672.0,yzde7ho4bc.csv
+,,,,,survey-text,9,2.1.0,166203,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,14290.0,,"{""Response"":""a very timid young woman. A good girl""}",,,yzde7ho4bc.csv
+,,,,,audio-keyboard-response,10,2.1.0,168349,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,,audio/573_705_B4.wav,,,573.0,yzde7ho4bc.csv
+,,,,,survey-text,11,2.1.0,190966,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,22613.0,,"{""Response"":""A computer geek really big nerd.""}",,,yzde7ho4bc.csv
+,,,,,audio-keyboard-response,12,2.1.0,194159,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,,audio/330_705_B4.wav,,,330.0,yzde7ho4bc.csv
+,,,,,survey-text,13,2.1.0,206843,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,12681.0,,"{""Response"":""A younger asian man who is under the influence of weed""}",,,yzde7ho4bc.csv
+,,,,,audio-keyboard-response,14,2.1.0,210059,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,,audio/799_705_B4.wav,,,799.0,yzde7ho4bc.csv
+,,,,,survey-text,15,2.1.0,240597,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,30535.0,,"{""Response"":""crack in her voice was very noticeable but she sounds like a nerd\n""}",,,yzde7ho4bc.csv
+,,,,,audio-keyboard-response,16,2.1.0,243160,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,,audio/493_705_B4.wav,,,493.0,yzde7ho4bc.csv
+,,,,,survey-text,17,2.1.0,261118,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,17955.0,,"{""Response"":""A college athlete with a somewhat raspy voice""}",,,yzde7ho4bc.csv
+,,,,,audio-keyboard-response,18,2.1.0,263890,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,,audio/752_705_B4.wav,,,752.0,yzde7ho4bc.csv
+,,,,,survey-text,19,2.1.0,276345,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,12451.0,,"{""Response"":""she sounds a bit tired like she just got up""}",,,yzde7ho4bc.csv
+,,,,,audio-keyboard-response,20,2.1.0,278669,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,,audio/955_705_B4.wav,,,955.0,yzde7ho4bc.csv
+,,,,,survey-text,21,2.1.0,299986,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,21313.0,,"{""Response"":""he sounds drowsy maybe recently took some medication""}",,,yzde7ho4bc.csv
+,,,,,html-button-response,22,2.1.0,309323,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,9335.0,"<p>You have completed the listening trials. You will now be directed to an optional demographic survey. Please answer the survey questions if you feel comfortable doing so. After seeing the survey, you will be able to end the study.</p>",0,,,yzde7ho4bc.csv
+,,,,,survey,23,3.0.0,342531,6510a9a8c2b97bc048bfa64f,68ffea0000c1db3710ce21b4,6900018b2bbfbccd109f50d0,33028.0,,"{""understood"":true,""age"":55,""gender"":""Female"",""ethnicity"":""Black"",""education"":""Graduated college"",""enjoy"":""Better than average study"",""payment"":""The payment was fair"",""question1"":null,""language"":null,""comments"":null}",,,yzde7ho4bc.csv
